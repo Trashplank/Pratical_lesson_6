@@ -1,0 +1,5 @@
+def cumsum(t):
+    result = []
+    for i in t:
+        result.append(sum(i))
+    return result

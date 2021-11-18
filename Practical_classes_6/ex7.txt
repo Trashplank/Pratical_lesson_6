@@ -1,0 +1,12 @@
+def has_duplicates(s):
+    arr = []
+    for i in s:
+        arr.append(i)
+
+    arr = sorted(arr)
+    num = 0
+    for i in range(len(arr)-1): 
+        if arr[i] == arr[i+1]:
+            num += 1
+    return num > 0
+        

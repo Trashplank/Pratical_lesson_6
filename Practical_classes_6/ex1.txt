@@ -1,0 +1,5 @@
+def nested_sum(t):
+    result = 0
+    for i in t:
+        result += sum(i)
+    return result
